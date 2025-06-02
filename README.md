@@ -119,7 +119,7 @@ Ensure the following services are installed:
 
 ## Edge Node Setup
 
-For detailed instructions on setting up the DKG Edge Node in an automated environment on Ubuntu, check out the official documentation [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu).
+For detailed instructions on setting up the DKG Edge Node in an automated environment on Ubuntu, check out the official documentation [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu). For more information about the Edge Node check out the official documentation [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node)
 
 ### 1. Clone the Repository
 To begin, copy the following code:
@@ -140,7 +140,7 @@ nano .env.example
 
 2. Fill in the required parameters.
 
-For detailed instructions on how to fill in the required parameters please check out step 3. "Configure the environment (.env)" on this [link](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu).
+For detailed instructions on how to fill in the required parameters please check out step 3. "Configure the environment (.env)" [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu).
 
 3. After completing configuring the environment file, rename it to `.env`:
 
