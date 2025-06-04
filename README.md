@@ -119,8 +119,59 @@ Ensure the following services are installed:
 
 ## Edge Node Setup
 
-For detailed instructions on setting up the DKG Edge Node, check out the official documentation [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node).
+For detailed instructions on setting up the DKG Edge Node in an automated Ubuntu environment, refer to the [official installation guide](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu).
 
+To learn more about the Edge Node itself, its role, and capabilities, visit the [Edge Node documentation](https://docs.origintrail.io/build-with-dkg/dkg-edge-node).
+
+### 1. Clone the Repository
+To begin, copy the following code:
+
+ ```bash
+git clone https://github.com/OriginTrail/edge-node-installer
+```
+
+
+### 2. Set the Environment Variables File
+Once you have cloned the repository, navigate to the directory and set the environment variables:
+
+1. Open the `.env.example` file:
+
+ ```bash
+nano .env.example
+```
+
+2. Fill in the required parameters.
+
+For detailed instructions on how to fill in the required parameters please check out step 3. "Configure the environment (.env)" [here](https://docs.origintrail.io/build-with-dkg/dkg-edge-node/run-an-edge-node/automated-environment-setup-ubuntu).
+
+3. After completing configuring the environment file, rename it to `.env`:
+
+ ```bash
+cp .env.example .env
+```
+
+
+### 3. Execute the Installer
+To execute the installation, run the following command:
+
+ ```bash
+bash edge-node-installer.sh
+```
+
+
+### 4. Usage
+Once the installation is complete, you can access the user interface by navigating to:
+
+```bash
+    http://your-nodes-ip-address
+```
+
+The default login credentials are:
+
+- **Username:** my_edge_node
+- **Password:** edge_node_pass
+
+**Important:** It is highly recommended to change the default credentials.
 
 </br>
 
