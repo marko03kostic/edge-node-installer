@@ -147,7 +147,7 @@ For detailed instructions on how to fill in the required parameters please check
 3. After completing configuring the environment file, rename it to `.env`:
 
  ```bash
-mv .env.example .env
+cp .env.example .env
 ```
 
 
