@@ -10,7 +10,7 @@ API=$EDGE_NODE_DIR/edge-node-api
 DRAG_API=$EDGE_NODE_DIR/edge-node-drag
 KA_MINING_API=$EDGE_NODE_DIR/edge-node-knowledge-mining
 EDGE_NODE_API=$EDGE_NODE_DIR/edge-node-api
-EDGE_NODE_UI=/var/www/edge-node-interface
+EDGE_NODE_UI=$EDGE_NODE_DIR/edge-node-interface
 
 # Load the configuration variables
 if [ -f .env ]; then
